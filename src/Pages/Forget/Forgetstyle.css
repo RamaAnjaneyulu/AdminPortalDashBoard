@@ -1,0 +1,36 @@
+
+ .card-height{
+    height: 600px;
+  
+   
+   }
+   .txt-margin{
+      padding-top: 2%;
+   }
+  
+   .card-top{
+       padding-top: 22%;
+   }
+  
+   .txt-top{
+       padding-top: 5%;
+   }
+  
+   .txt-margin-top{
+       padding-top: 15%;
+   }
+   .top-pad{
+       padding-top: 5%;
+   }
+  
+   .col-form-label{
+       color: #fff;
+       font-weight: 600;
+   }
+  
+   .bg-color{
+       background-color: #92c3f2;
+   }
+    span a{
+        margin-left: 45%;
+    }
