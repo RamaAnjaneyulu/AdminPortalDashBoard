@@ -1,15 +1,14 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Login from "./Pages/Login/Loginpage.js";
-import Forget from "./Pages/Forget/Forgetpage.js";
+import Loginpage from "./Pages/Login/Loginpage.js";
+import Forgetpage from './Pages/Forget/Forgetpage.js';
 function App() {
   return (
     <div className='container'>
     <BrowserRouter>
     <Routes>
-    <Route  path="/" element ={<Login/>} />
-    <Route path="/Forget" element={<Forget />}></Route>
-
+    <Route  path="/" element ={<Loginpage/>} />
+    <Route path="/Forgetpage" element={<Forgetpage />}></Route>
     </Routes>
     </BrowserRouter>
    </div>

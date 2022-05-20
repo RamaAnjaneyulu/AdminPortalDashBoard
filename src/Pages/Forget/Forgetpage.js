@@ -2,7 +2,7 @@ import React from 'react';
 import Forgetstyle from "./Forgetstyle.css";
 
 
-const Login = () => {
+const Forgetpage = () => {
     return (
         
 <div className='row justify-content-md-center card-height top-pad'>
@@ -40,4 +40,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default Forgetpage;
