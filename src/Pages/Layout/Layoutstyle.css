@@ -1,0 +1,8 @@
+
+body{
+    overflow: hidden;
+}
+.row { 
+    margin-left: -25px !important;
+margin-right: -25px !important;
+}

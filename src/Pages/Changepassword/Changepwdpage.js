@@ -1,15 +1,15 @@
 import React from 'react';
-import Forgetstyle from "./Forgetstyle.css";
+import Changepwdstyle from "./Changepwdstyle.css";
 
 
-const Forgetpage = () => {
+const Changepwdpage = () => {
     return (
         
 <div className='row justify-content-md-center card-height top-pad'>
 <div className="card col col-lg-8 ">
   
   <div className="card-body bg-color">
-<div className='row card-top'>
+<div className='row'>
 <div className="mb-6 row justify-content-md-center txt-top">
     <label for="inputOldPassword" className="col-sm-3 col-form-label">Emai ID</label>
     <div className="col-sm-6">
@@ -17,8 +17,13 @@ const Forgetpage = () => {
     </div>
   </div>
   <div className="mb-6 row justify-content-md-center txt-topmargn">
-
-    <label for="inputNewPassword" className="col-sm-3 col-form-label">Password</label>
+    <label for="inputNewPassword" className="col-sm-3 col-form-label">Old Password</label>
+    <div className="col-sm-6 txt-margin">
+      <input type="password" className="form-control" id="inputPassword"/>
+    </div>
+  </div>
+  <div className="mb-6 row justify-content-md-center txt-topmargn">
+    <label for="inputNewPassword" className="col-sm-3 col-form-label">New Password</label>
     <div className="col-sm-6 txt-margin">
       <input type="password" className="form-control" id="inputPassword"/>
     </div>
@@ -47,4 +52,4 @@ const Forgetpage = () => {
     );
 }
 
-export default Forgetpage;
+export default Changepwdpage;

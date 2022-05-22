@@ -13,12 +13,8 @@
    }
   
    .txt-top{
-       padding-top: 5%;
+       padding-top: 10px;
    }
-
-   .txt-topmargn{
-    padding-top: 2%;
-}
   
    .txt-margin-top{
        padding-top: 15%;
@@ -35,6 +31,6 @@
    .bg-color{
        background-color: #92c3f2;
    }
-    span a{
+    a {
         margin-left: 45%;
     }
