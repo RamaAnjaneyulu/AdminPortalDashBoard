@@ -16,7 +16,7 @@ const Login = () => {
             <div className="mb-6 row justify-content-md-center txt-top">
               <label for="inputPassword" className="col-sm-2 col-form-label">User Name</label>
               <div className="col-sm-6">
-                <input type="password" className="form-control" id="username" />
+                <input type="text" className="form-control" id="username" />
               </div>
             </div>
             <div className="mb-6 row justify-content-md-center">
