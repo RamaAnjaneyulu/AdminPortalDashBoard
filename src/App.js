@@ -6,14 +6,11 @@ import NotFoundPage from './Pages/NotFound/NotFoundPage.js';
 function App() {
   return (
     <div className='container'>
-    <BrowserRouter>
     <Routes>
     <Route  path="/" element ={<Loginpage/>} />
     <Route path="/Forgetpage" element={<Forgetpage />}></Route>
     <Route path="*" element={<NotFoundPage/>}/>
-
     </Routes>
-    </BrowserRouter>
    </div>
   );
 }
